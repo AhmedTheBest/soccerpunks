@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^soccerpunknft.com [NC]
+RewriteRule ^(.*)$ https://www.soccerpunknft.com/$1 [L,R=301]
